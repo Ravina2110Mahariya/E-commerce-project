@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">E-Shop</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="cart-icon">🛒</div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Welcome to Our E-Commerce Store</h1>
+        <p>Discover the latest trends and amazing deals</p>
+        <a href="#shop" class="shop-now-btn">Shop Now</a>
+      </div>
+    </div>
+
+    <section id="products" class="products-section">
+      <h2>Featured Products</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <img src="assets/home2.webp" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>$29.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/home2.webp" alt="Product 2">
+          <h3>Product 2</h3>
+          <p>$39.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/home2.webp" alt="Product 3">
+          <h3>Product 3</h3>
+          <p>$49.99</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Us</h2>
+      <p>At E-Shop, we are dedicated to providing the best products at competitive prices. Our mission is to make online shopping simple and enjoyable.</p>
+      <div id="content"></div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 E-Shop. All rights reserved.</p>
+  </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
